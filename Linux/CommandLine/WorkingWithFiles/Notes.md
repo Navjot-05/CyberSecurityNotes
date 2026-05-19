@@ -37,3 +37,9 @@
         and -name gcc meant it's name must be gcc
 # to find and remove the file
     find -name "*.swp" -exec rm {} ';'
+
+    To Find files based on the time
+    find /{pathof the file} -ctime 3
+    
+    to find file based on the size of it
+    find /{filePath} -size 0
