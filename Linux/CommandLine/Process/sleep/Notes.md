@@ -1,0 +1,2 @@
+# syntax to use for sleep (delaying if the backup is busy or any other reason this is my perception to understand it)
+    $ sleep <number> -<letter abbrivation for seconds -s, minutes-m, days- d, hour - h>
